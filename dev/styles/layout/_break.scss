@@ -1,0 +1,20 @@
+.break {
+    text-align: center;
+    color: #FFF;
+    &__background {
+        background: url('../images/blog-image.jpg') no-repeat top center /cover;
+        padding: 100px 50px;
+    }
+    &--bottom-gradient {
+        position: relative;
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            height: 200px;
+            bottom: 0px;
+            left: 0; right: 0;
+            background: linear-gradient(to top right,#F54EA2,#FD4A51);
+        }
+    }
+}

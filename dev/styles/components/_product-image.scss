@@ -1,0 +1,8 @@
+.product-image {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    @media (max-width: 640px){
+        width: 100%;
+    }
+}

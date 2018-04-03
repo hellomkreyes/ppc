@@ -1,0 +1,53 @@
+.grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 640px){
+        display: block;
+    }
+}
+
+.buckets {
+    &__grid {
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+        @media (max-width: 640px){
+            margin: 0;
+        }
+    }
+    &__bucket {
+        flex: 0 1 50%;
+        padding: 10px;
+        @media (max-width: 640px){
+            padding: 30px 10px;
+        }
+    }
+    &__image {
+        height: 150px;
+    }
+    strong {
+        display: block;
+        font-size: 2rem;
+    }
+}
+
+.clients {
+    text-align: center;
+    &__grid {
+        flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+    &__client {
+        flex: 1 1 33.333%;
+        padding: 30px 10px 10px;
+    }
+    &__image {
+        width: 100%;
+        img {
+            line-height: 0;
+        }
+    }
+}

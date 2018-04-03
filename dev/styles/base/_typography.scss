@@ -1,0 +1,41 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 10px;
+    font-size: 16px;
+    font-family: $font;
+    font-weight: 200;
+    color: $text-blue;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 200;
+    line-height: 1em;
+    @media (max-width: 760px){
+        font-size: 4rem;
+    }
+}
+
+h2 {
+    font-size: 3.8rem;
+    font-weight: 200;
+    margin-top: 0;
+    @media (max-width: 640px){
+        font-size: 3rem;
+    }
+}
+
+a {
+    &:visited { color: #000; }
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+strong {
+    font-weight: 900;
+}

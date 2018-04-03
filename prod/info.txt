@@ -1,0 +1,10 @@
+Green linear gradient: linear-gradient(to bottom right,#00D7C8,#81D973,#EADB2E)
+Blue linear gradient: linear-gradient(to right,#2291F8,#22B3F8,#22D5F8)
+Red linear gradient: linear-gradient(to top right,#F54EA2,#FD4A51)
+
+Taglines
+"Have more productive team-meetings"
+"Great one-on-ones make work better"
+"Get the entire team more involved"
+"Start with a great agenda"
+"Make sure nothing gets missed"

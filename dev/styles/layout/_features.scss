@@ -1,0 +1,52 @@
+.features {
+    color: #FFF;
+    h2 {
+        font-weight: 800;
+    }
+    .wrapper {
+        position: relative;
+    }
+    &__one-on-one {
+        .wrapper.gradient {
+            padding-left: 150px;
+            @media (max-width: 760px){
+                padding-left: 50px;
+            }
+            @media (max-width: 640px){
+                padding-left: 10px;
+            }
+        }
+    }
+    &__one-image {
+        height: 100%;
+        position: absolute;
+        top: 50%; left: 0;
+        transform: translateX(-150px) translateY(-50%);
+        @media (max-width: 760px){
+            position: static;
+            height: auto;
+            width: 50%;
+            top: auto;
+            left: auto;
+            transform: none;
+            margin: -200px auto 10px;
+            display: block;
+        }
+    }
+    &__team-image {
+        height: 75%;
+        position: absolute;
+        top: 50%; right: 0;
+        transform: translateX(200px) translateY(-50%);
+        @media (max-width: 860px) {
+            position: static;
+            height: auto;
+            width: 50%;
+            right: auto;
+            transform: none;
+            display: block;
+            top: auto;
+            margin: -150px auto 10px;
+        }
+    }
+}

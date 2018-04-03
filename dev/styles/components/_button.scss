@@ -1,0 +1,45 @@
+.button {
+    border-radius: 3px;
+    font-size: 1.8rem;
+    display: inline-block;
+    padding: 20px 10px;
+    transition: all 300ms;
+    min-width: 155px;
+    text-align: center;
+    text-decoration: none;
+    &, &:visited { color: $blue; }
+    &--long {
+        min-width: 250px;
+    }
+    &--dark {
+        color: #FFF;
+        background: $dark-blue;
+        &:visited {
+            color: #FFF;
+        }
+        &:hover, &:focus {
+            background: rgba(#FFF,0.9);
+            color: $dark-blue;
+        }
+    }
+    &--border {
+        border: solid 1px $blue;
+        padding: 15px;
+        font-size: 1.6rem;
+        &:hover, &:focus {
+            background: $blue;
+            color: #FFF;
+            text-decoration: underline;
+        }
+        &-white {
+            border: solid 1px #FFF;
+            &, &:visited {
+                color: #FFF;
+            }
+            &:hover, &:focus {
+                background: #FFF;
+                color: $text-blue;
+            }
+        }
+    }
+}

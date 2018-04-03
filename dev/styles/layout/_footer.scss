@@ -1,0 +1,44 @@
+.footer {
+    &, a, a:visited {
+        color: grey;
+        text-decoration: none;
+        transition: all 300ms;
+    }
+    a:hover, a:focus {
+        text-decoration: underline;
+        color: $blue;
+    }
+    &__container {
+        padding: 20px 0;
+        align-items: center;
+        justify-content: space-between;
+        @media (max-width: 640px){
+            display: block;
+            text-align: center;
+        }
+    }
+    &__social {
+        margin-right: -5px;
+        @media (max-width: 640px){
+            margin-right: 0;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    &__icon-link {
+        text-align: center;
+        padding: 5px;
+        margin: 0 5px;
+        border: solid 1px grey;
+        border-radius: 50%;
+        transition: all 300ms;
+        &:hover, &:focus {
+            border: solid 1px $blue;
+            color: $blue;
+            &:visited { color: $blue; }
+        }
+    }
+    &__icon-box {
+        width: 18px; height: 18px;
+    }
+}

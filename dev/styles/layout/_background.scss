@@ -1,0 +1,11 @@
+.gradient {
+    &--green {
+        background: linear-gradient(to bottom right,#00D7C8,#81D973,#EADB2E) no-repeat;
+    }
+    &--red {
+        background: linear-gradient(to top right,#F54EA2,#FD4A51) no-repeat;
+    }
+    &--blue {
+        background: linear-gradient(to right,#2291F8,#22B3F8,#22D5F8) no-repeat;
+    }
+}

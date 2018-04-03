@@ -1,0 +1,31 @@
+::-moz-selection { background: $blue; color: #fff; text-shadow: none; }
+::selection { background: $blue; color: #fff; text-shadow: none; }
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: $blue;
+}
+
+body {
+    background: #FFF;
+}
+
+main, *[role="main"] {
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 1000px;
+}
+
+.wrapper, .inner-wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px 10px;
+}

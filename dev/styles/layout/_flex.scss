@@ -1,0 +1,8 @@
+.parent {
+    display: flex;
+    position: relative;
+    &--center {
+        justify-content: center;
+        align-items: center;
+    }
+}
